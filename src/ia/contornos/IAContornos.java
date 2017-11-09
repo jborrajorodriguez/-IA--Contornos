@@ -12,8 +12,8 @@ public class IAContornos {
         System.out.println("Dígame su nombre:");
         String nombre=teclado.nextLine();
         PedirNombre nom=new PedirNombre(nombre);
-        Mostrar IA=new Mostrar();
-        System.out.println(IA.resposta(nom.getNombre()));
+        Mostrar IA=new Mostrar();                           //Creamos un objeto de la clase mostrar para usar la IA
+        System.out.println(IA.resposta(nom.getNombre()));   //Esta linea muestra la respuesta de la IA
 
     }
 
