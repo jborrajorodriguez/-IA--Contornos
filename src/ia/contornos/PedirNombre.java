@@ -8,5 +8,8 @@ public class PedirNombre {
     public PedirNombre(String nombre){
         this.nombre=nombre;
     }
+    public String getNombre(){
+        return nombre;
+    }
 
 }
