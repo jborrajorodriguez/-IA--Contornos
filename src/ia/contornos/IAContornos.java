@@ -12,6 +12,8 @@ public class IAContornos {
         System.out.println("Dígame su nombre:");
         String nombre=teclado.nextLine();
         PedirNombre nom=new PedirNombre(nombre);
+        Mostrar IA=new Mostrar();
+        System.out.println(IA.resposta(nom.getNombre()));
 
     }
 
