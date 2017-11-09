@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class IAContornos {
 
     public static void main(String[] args) {
-        Scanner teclado=new Scanner(System.in);
-        System.out.println("Dígame su nombre:");
-        String nombre=teclado.nextLine();
-        PedirNombre nom=new PedirNombre(nombre);
+        Scanner teclado=new Scanner(System.in);//Se crea el objecto Scanner.
+        System.out.println("Dígame su nombre:");//muestra en pantalla un mensaje.
+        String nombre=teclado.nextLine();//Se crea la variable nombre de tipo String.
+        PedirNombre nom=new PedirNombre(nombre);//Se instancia la clase PedirNombre con el objecto nom.
         Mostrar IA=new Mostrar();
         System.out.println(IA.resposta(nom.getNombre()));
 
