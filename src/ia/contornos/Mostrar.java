@@ -1,6 +1,6 @@
 package ia.contornos;
 /*
- * @author Juan Borrajo Rodriguez Nº5937
+ * @author Arturo Alvarellos
  */
 public class Mostrar {
     
