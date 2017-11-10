@@ -3,7 +3,7 @@ package ia.contornos;
 import java.util.Scanner;
 
 /**
- * @author Juan Borrajo Rodriguez Nº5937 y Arturo Alvarellos Nº 6037
+ * @author Juan Borrajo Rodriguez
  */
 public class IAContornos {
 
