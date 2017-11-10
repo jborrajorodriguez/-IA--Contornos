@@ -14,6 +14,8 @@ public class IAContornos {
         PedirNombre nom=new PedirNombre(nombre);//Se instancia la clase PedirNombre con el objecto nom.
         Mostrar IA=new Mostrar();                           //Creamos un objeto de la clase mostrar para usar la IA
         System.out.println(IA.resposta(nom.getNombre()));   //Esta linea muestra la respuesta de la IA
+//cambio 1
+//cambio2
         System.out.println("¿quieres que te cuente un chiste?");
         System.out.println("Selecciona un numero del 1 al 4");
         IA.chiste(teclado.nextInt());
