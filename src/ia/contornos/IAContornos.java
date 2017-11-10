@@ -17,6 +17,7 @@ public class IAContornos {
         System.out.println("¿quieres que te cuente un chiste?");
         System.out.println("Selecciona un numero del 1 al 4");
         IA.chiste(teclado.nextInt());
+        //cambio rama master
     }
 
 }
