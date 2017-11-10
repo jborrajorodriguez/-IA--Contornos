@@ -15,6 +15,7 @@ public class IAContornos {
         Mostrar IA=new Mostrar();                           //Creamos un objeto de la clase mostrar para usar la IA
         System.out.println(IA.resposta(nom.getNombre()));   //Esta linea muestra la respuesta de la IA
 //cambio 1
+//cambio2
     }
 
 }
